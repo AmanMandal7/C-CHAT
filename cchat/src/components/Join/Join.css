@@ -1,0 +1,14 @@
+.JoinPage {
+  background-color: rgb(52, 46, 46);
+  height: 100vh;
+  width: 100wh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.JoinContainer {
+  border: 2px solid white;
+  height: 50%;
+  width: 50%;
+}
