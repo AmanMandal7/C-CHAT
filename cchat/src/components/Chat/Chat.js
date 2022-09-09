@@ -31,8 +31,9 @@ const Chat = () => {
             console.log(data.user, data.message);
         })
 
+
         return () => {
-            socket.emit('Disconnect');
+            socket.disconnect();
             socket.off();
         }
     }, [])

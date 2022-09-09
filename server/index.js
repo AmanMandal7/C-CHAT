@@ -28,7 +28,7 @@ io.on('connection', (socket) => {    //this io is a whole circuit and it contain
         socket.emit("welcome", { user: "Admin", message: `Welcome to the chat,${users[socket.id]}` });
     })
 
-    socket.on('Disconnect', () => {
+    socket.on('disconnect', () => {
         socket.broadcast.emit('leave', { user: "Admin", message: `${users[socket.id]} has left` })
         console.log(`User left`);
     })
