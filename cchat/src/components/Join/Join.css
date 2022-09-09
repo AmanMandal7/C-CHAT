@@ -8,7 +8,54 @@
 }
 
 .JoinContainer {
-  border: 2px solid white;
-  height: 50%;
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.JoinContainer > img {
+  width: 10vmax;
+  padding: 10px;
+}
+
+.JoinContainer > h1 {
+  margin: 10px;
+  color: white;
+  font-size: 2vmax;
+  border-bottom: 0.2vmax solid white;
+  width: 25vmax;
+  text-align: center;
+  padding: 0.5vmax;
+  font-family: "Roboto";
+  box-sizing: border-box;
+}
+
+#joinInput {
+  width: 25vmax;
+  margin: 1.5vmax;
+  padding: 1.5vmax;
+  border: none;
+  outline: none;
+  font-size: 1.2vmax;
+  box-sizing: border-box;
+  transition: all 0.3s;
+}
+
+.joinbtn {
+  width: 25vmax;
+  margin: 0.1vmax;
+  padding: 1.5vmax;
+  color: white;
+  font-family: "Roboto";
+  border: none;
+  outline: none;
+  font-size: 1.3vmax;
+  background-color: crimson;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.joinbtn:hover {
+  background-color: rgb(186, 10, 45);
 }
