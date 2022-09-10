@@ -16,12 +16,30 @@
 .header {
   background-color: crimson;
   height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header > h1 {
+  color: white;
+  font-family: "Roboto";
+  margin: 2.5vmax;
+}
+
+.header img {
+  margin: 1.5vmax;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.header img:hover {
+  transform: scale(1.5);
 }
 
 .chatBox {
-  border: 0.2vmax solid black;
   height: 70%;
   box-sizing: border-box;
+  overflow-y: auto;
 }
 
 .inputBox {
@@ -39,6 +57,7 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   box-sizing: border-box;
   outline: none;
+  border-top: 0.15vmax solid rgb(90, 72, 72);
 }
 
 .sendBtn {
@@ -62,5 +81,5 @@
 }
 
 .sendBtn:hover img {
-  transform: translateX(2px);
+  transform: translateX(2.5px);
 }

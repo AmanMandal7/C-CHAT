@@ -1,3 +1,39 @@
 * {
   margin: 0;
 }
+
+@media (max-aspect-ratio: 7/10) {
+  .JoinContainer {
+    width: 100% !important;
+  }
+
+  .JoinContainer > img {
+    width: 28vw !important;
+  }
+
+  .JoinContainer > h1 {
+    font-size: 6vw !important;
+    border-bottom: 0.33vmax solid white !important;
+    width: 55vw !important;
+    padding: 1vw !important;
+  }
+
+  #joinInput {
+    width: 55vw !important;
+    padding: 3.6vw !important;
+    font-size: 4.5vw !important;
+    margin: 4vw !important;
+  }
+
+  .joinbtn {
+    width: 55vw !important;
+    padding: 3.6vw !important;
+    font-size: 5vw !important;
+  }
+
+  .chatContainer {
+    background-color: white;
+    height: 60%;
+    width: 50%;
+  }
+}
