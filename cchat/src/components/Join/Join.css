@@ -1,5 +1,5 @@
 .JoinPage {
-  background-color: rgb(52, 46, 46);
+  background-color: rgb(150, 111, 111);
   height: 100vh;
   width: 100wh;
   display: flex;
@@ -16,7 +16,7 @@
 
 .JoinContainer > img {
   width: 10vmax;
-  padding: 10px;
+  box-shadow: -15px 10px 15px rgba(0, 0, 0, 0.3);
 }
 
 .JoinContainer > h1 {
@@ -51,11 +51,11 @@
   border: none;
   outline: none;
   font-size: 1.3vmax;
-  background-color: crimson;
+  background-color: rgb(150, 93, 225);
   box-sizing: border-box;
   cursor: pointer;
 }
 
 .joinbtn:hover {
-  background-color: rgb(186, 10, 45);
+  background-color: rgb(123, 40, 231);
 }

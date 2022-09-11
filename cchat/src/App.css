@@ -2,7 +2,7 @@
   margin: 0;
 }
 
-@media (max-aspect-ratio: 7/10) {
+@media (max-aspect-ratio: 9/10) {
   .JoinContainer {
     width: 100% !important;
   }
@@ -30,10 +30,59 @@
     padding: 3.6vw !important;
     font-size: 5vw !important;
   }
+}
 
+/* FOR CHAT PAGE */
+@media (max-aspect-ratio: 9/10) {
   .chatContainer {
-    background-color: white;
-    height: 60%;
-    width: 50%;
+    height: 100% !important;
+    width: 100% !important;
+  }
+
+  .header {
+    height: 10% !important;
+    box-sizing: border-box !important;
+  }
+
+  .header > h1 {
+    margin: 6.5vw !important;
+    font-size: 6vw !important;
+  }
+
+  .header img {
+    margin: 4vw !important;
+    transform: scale(2) !important;
+  }
+
+  .header img:hover {
+    transform: scale(3) !important;
+  }
+
+  .chatBox {
+    height: 80% !important;
+  }
+
+  .inputBox {
+    height: 10% !important;
+  }
+
+  #chatInput {
+    padding: 4vw !important;
+    font-size: 4.5vw !important;
+  }
+
+  .sendBtn > img {
+    width: 5vw !important;
+  }
+
+  .sendBtn:hover img {
+    transform: translateX(4) !important;
+  }
+
+  .messageBox {
+    font-size: 3.5vw !important;
+    padding: 2vw !important;
+    margin: 2vw !important;
+    border-radius: 1.8vw !important;
   }
 }

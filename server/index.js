@@ -25,7 +25,7 @@ io.on('connection', (socket) => {    //this io is a whole circuit and it contain
         users[socket.id] = user;
         console.log(`${user} has joined`)
         socket.broadcast.emit("userJoined", { user: "Admin", message: `${users[socket.id]} has joined` });
-        socket.emit("welcome", { user: "Admin", message: `Welcome to the chat,${users[socket.id]}` });
+        socket.emit("welcome", { user: "Admin", message: `Welcome to the chat, ${users[socket.id]}` });
     })
 
     socket.on('message', ({ message, id }) => {

@@ -1,5 +1,4 @@
 .messageBox {
-  width: 40%;
   font-size: 1.2vmax;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding: 1vmax;
@@ -11,11 +10,13 @@
 
 .right {
   float: right;
-  background-color: crimson;
+  text-align: right;
+  background-color: rgb(228, 101, 237);
   color: white;
 }
 
 .left {
   float: left;
-  background-color: rgb(162, 239, 168);
+  text-align: left;
+  background-color: rgb(208, 246, 211);
 }
